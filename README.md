@@ -45,9 +45,11 @@ Otherwise to just get the application download your respective platforms file fr
 
 ## Install
 
-* Mac: Open up a new finder window and go to the Applications folder. Then drag the Insomnia.app from the Insomnia dmg to the Applications folder. Double Clicking on the app should run it and it could be kept in the dock from here.
+### Mac
+Open up a new finder window and go to the Applications folder. Then drag the Insomnia.app from the Insomnia dmg to the Applications folder. Double Clicking on the app should run it and it could be kept in the dock from here.
 
-* Linux: Open up a terminal and navigate to the folder containing the downloaded installer files and run
+### Linux
+Open up a terminal and navigate to the folder containing the downloaded installer files and run
 ```bash
 sudo dpkg -i Insomnia_1.1.0_amd64.deb
 ```
@@ -58,16 +60,22 @@ sudo dpkg -i Insomnia_1.1.0_x86.deb
  
  This will actually install Insomnia as a utility application which can be accessed from your respective distributions application launchpad.
 
-* Windows: Open up another windows explorer and navigate to your program files folder (x86 or 64 bit is irrelevant). Now drag the entire Insomnia Windows folder you extracted  from the downloaded zip in the previous step over to the program files folder. Go into the folder that was just dragged over and find the Insomnia.exe and run it. Now the application will show up in the dock where it can be pinned.
+### Windows
+Open up another windows explorer and navigate to your program files folder (x86 or 64 bit is irrelevant). Now drag the entire Insomnia Windows folder you extracted  from the downloaded zip in the previous step over to the program files folder. Go into the folder that was just dragged over and find the Insomnia.exe and run it. Now the application will show up in the dock where it can be pinned.
 
 ## Uninstall
 
-* Mac: Go to the applications folder and delete the Insomnia application.
-* Linux: Open up a terminal and run:
+### Mac
+Go to the applications folder and delete the Insomnia application.
+
+### Linux
+Open up a terminal and run:
 ```bash
 sudo dpkg --remove Insomnia
 ```
-* Windows: Open up the program files folder and delete the Insomnia folder.
+
+### Windows
+Open up the program files folder and delete the Insomnia folder.
 
 ## Helping Out
 It is assumed you already have node installed and therefore npm.
@@ -83,13 +91,13 @@ electron Insomnia # this will run the application
 
 If you get some error and the application wont run try running the following lines and see if that works.
 
-Linux/Mac
+### Linux/Mac
 ```bash
 cd Insomnia
 sudo npm install -g
 ```
 
-Windows
+### Windows
 Right click on the start menu icon at the bottom left and click on the option to open a command prompt in developer mode
 cd to the insomnia directory then run
 ```bash
