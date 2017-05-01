@@ -1,41 +1,34 @@
 <div align="center">
 
-# ![Insomnia](https://github.com/alexanderepstein/Insomnia/blob/master/sleep_github.png) Insomnia ![Insomnia](https://github.com/alexanderepstein/Insomnia/blob/master/sleep_github.png)
+ # ![Insomnia](https://github.com/alexanderepstein/Insomnia/blob/master/sleep_github.png) Insomnia ![Insomnia](https://github.com/alexanderepstein/Insomnia/blob/master/sleep_github.png)
 
-![Counting Sheep](https://github.com/alexanderepstein/Insomnia/blob/master/giphy.gif)
+ ![Counting Sheep](https://github.com/alexanderepstein/Insomnia/blob/master/giphy.gif)
 
-Insomnia will remind you to take a rest and that you can always come back to the work tomorrow.
-Inspired by http://sleepyti.me a website that calculates optimal times to fall asleep based on when you want to wake up.
-The idea is that when you wake up in the middle of a sleep cycle you will feel groggy, however if you wakeup during the
-transition between sleep cycles you will feel refreshed!
+ Insomnia will remind you to take a rest and that you can always come back to the work tomorrow.
+ Inspired by http://sleepyti.me a website that calculates optimal times to fall asleep based on when you want to wake up.
+ The idea is that when you wake up in the middle of a sleep cycle you will feel groggy, however if you wakeup during the
+ transition between sleep cycles you will feel refreshed!
+</div>
 
 This application uses the averages that sleep cycles are 90 minutes each and a person takes 15 minutes to fall asleep from when they begin to try and calculates the times for you to sleep. It will notify you throughout the night when the optimal times to shutdown your computer and start to head to sleep and provide a button to do just that. This application works well with https://justgetflux.com/ 
-</div>
 
 ## Screenshots
 
 #### MenuBar
-
-<div align="center">
-
- ![Tray](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20Tray.png?raw=true)
-</div>
+![Tray](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20Tray.png?raw=true)
 
 #### Notification
+![Notification](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20Notification.png?raw=true)
 
-<div align="center">
+#### Main Window
+![Main](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20Main.png?raw=true)
 
- ![Notification](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20Notification.png?raw=true)
+#### About Window
+![About](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20About.png?raw=true)
 
- #### Main Window
- ![Main](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20Main.png?raw=true)
+#### Preferences Window
+![Prefs](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Preferences.png?raw=true)
 
- #### About Window
- ![About](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Insomnia%20About.png?raw=true)
-
- #### Preferences Window
- ![Prefs](https://github.com/alexanderepstein/Insomnia/blob/master/screenshots/Preferences.png?raw=true)
-</div>
 
 # Downloads
 To get the full sourced version run in terminal:
@@ -77,7 +70,7 @@ sudo dpkg --remove Insomnia
 * Windows: Open up the program files folder and delete the Insomnia folder.
 
 ## Helping Out
-(It is assumed you already have node installed and therefore npm)
+It is assumed you already have node installed and therefore npm.
 
 To download the full source code and install the devDependencies run the following lines:
 ```bash
@@ -88,15 +81,15 @@ cd ..
 electron Insomnia # this will run the application
 ```   
 
-If you get some error and the application wont run try running the following lines and see if that works
+If you get some error and the application wont run try running the following lines and see if that works.
 
-### Linux/Mac
+Linux/Mac
 ```bash
 cd Insomnia
 sudo npm install -g
 ```
 
-### Windows
+Windows
 Right click on the start menu icon at the bottom left and click on the option to open a command prompt in developer mode
 cd to the insomnia directory then run
 ```bash
